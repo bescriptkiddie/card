@@ -167,7 +167,6 @@ export const ModernTemplate: React.FC<CardTemplateProps> = ({ term }) => (
     {/* 内容区域 */}
     <foreignObject x='60' y='300' width='680' height='400'>
       <div
-        xmlns='http://www.w3.org/1999/xhtml'
         style={{
           fontFamily: 'Arial',
           fontSize: '24px',

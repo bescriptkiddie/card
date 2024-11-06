@@ -12,14 +12,14 @@ export enum TemplateType {
 }
 
 export const templateNames: Record<TemplateType, string> = {
-  [TemplateType.COACH_RUNNER]: '多跃',
+  [TemplateType.PERSONAL]: '凯西',
   [TemplateType.CONTENT_CREATOR]: '丸子🍡',
+  [TemplateType.TEACHER]: '梓悦',
+  [TemplateType.AMO]: '墨啊',
+  [TemplateType.COACH_RUNNER]: '多跃',
   [TemplateType.EDUCATOR]: '雨洪',
   [TemplateType.PERSONAL_COACH]: '橙子🍊',
-  [TemplateType.PERSONAL]: '凯西',
-  [TemplateType.TEACHER]: '梓悦',
   [TemplateType.TECH_EXPERT]: '老兮',
   [TemplateType.TECH_LEADER]: '西瓜',
-  [TemplateType.AMO]: '墨啊',
   [TemplateType.SHENGJIAN]: '生姜'
 };

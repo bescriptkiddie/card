@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '每日心理学词典',
-  description: '每天一个心理学概念，助你成长'
+  title: '小班朋友们的社交名片',
+  description: '小班朋友们，一起成长'
 };
 
 export default function RootLayout({
