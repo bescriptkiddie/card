@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Term } from '@/lib/terms';
 import { TemplateType, templateNames } from './template/types';
-import { TemplateRenderer } from './template';
+import { TemplateRenderer } from './template/index';
 
 interface DailyCardProps {
   initialTerm: Term;

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Term } from '@/lib/terms';
+import { Term } from '../../lib/terms';
 import { TemplateType } from './types';
 
 // 导入所有模板组件

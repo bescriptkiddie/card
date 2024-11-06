@@ -18,12 +18,12 @@ const PersonalCard = () => {
                   className='w-full h-full object-cover'
                   onError={(e) => {
                     (e.target as HTMLImageElement).removeAttribute('src');
-                    e.target.parentElement?.classList.add(
+                    (e.target as HTMLImageElement)?.classList.add(
                       'bg-gradient-to-r',
                       'from-emerald-100',
                       'to-blue-100'
                     );
-                    e.target.parentElement!.innerHTML = `
+                    (e.target as HTMLImageElement)!.innerHTML = `
             <div class="w-full h-full flex items-center justify-center text-2xl font-bold text-emerald-600">
               ${name.charAt(0)}
             </div>
