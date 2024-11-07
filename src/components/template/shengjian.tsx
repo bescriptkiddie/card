@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 
 const PersonalCard = () => {
-  const imageUrl = '/images/shengjian.jpg';
+  const imageUrl = '/images/shengjian.JPG';
   const name = '生姜';
   return (
     <div className='flex justify-center items-center min-h-screen p-4'>

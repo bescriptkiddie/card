@@ -2,7 +2,7 @@ import React from 'react';
 import { MapPin, Briefcase, Target, Award, Compass, Heart } from 'lucide-react';
 
 const PersonalCard = () => {
-  const imageUrl = '/images/cathy.jpg';
+  const imageUrl = '/images/cathy.JPG';
   const name = '凯西 Cathy';
   return (
     <div className='flex justify-center items-center min-h-screen bg-gray-50 p-4'>

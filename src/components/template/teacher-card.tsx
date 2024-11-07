@@ -11,7 +11,7 @@ import {
 
 const PersonalCard = () => {
   const name = '梓悦';
-  const imageUrl = '/images/ziyue.jpg';
+  const imageUrl = '/images/ziyue.JPG';
   return (
     <div className='flex justify-center items-center min-h-screen bg-gray-50 p-4'>
       <div className='w-full max-w-2xl bg-white rounded-xl shadow-2xl overflow-hidden'>
